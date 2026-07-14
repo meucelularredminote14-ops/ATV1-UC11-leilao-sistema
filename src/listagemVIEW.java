@@ -202,6 +202,7 @@ public class listagemVIEW extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 
     private void listarProdutos(){
+        // Método que carrega todos os produtos cadastrados na tabela
         try {
             ProdutosDAO produtosdao = new ProdutosDAO();
             
